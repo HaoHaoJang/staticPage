@@ -1,0 +1,81 @@
+*{ margin:0; padding:0}
+ul,li,ol{ list-style: none;}
+a{ text-decoration:none; color:#000;}
+img{ border: 0;}
+
+.fl{ float: left;}
+.fr{ float: right;}
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{ display: table;line-height: 0; clear: both; content: ""}
+
+body{ font-family: "Microsoft YaHei ","微软雅黑","宋体",; font-size:12px; color:#000; background:#fff;}
+.w71{ width:710px; margin:0 auto}
+
+.header{ background:#C1B5A6; height:55px; line-height:55px;}
+.nav li{ float:left}
+.nav li a{ display:block; margin-left:30px; font-size:16px; }
+.banner{ margin: 0; padding: 0; font-size: 0;}
+.banner img{ width:100%; height:auto; display: block; margin:0px ; padding: 0px; line-height: 0; vertical-align: middle;}
+.news{ background:#C5C4C3;  padding-bottom:60px;}
+.comment .title{ font-size:28px; text-align:center; display:block; padding-top:30px;}
+.comment .title h2{ text-align:center; margin-bottom:30px; font-size:30px; font-weight: normal;}
+.on{ background:#0033FF}
+.tips{position:absolute;bottom:15px;right:15px;}
+.tips li{float:left;  width:25px; height:25px; border-radius:3px; background:#0099FF;  margin-right:10px; text-align:center; line-height:25px; }
+.news_con .slideBox .bd li{ width: 25%; box-sizing: border-box;}
+.news_con .slideBox{ width: 710px; height: 320px;}
+.news_con .slideBox .bd p{ font-size: 12px;display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;}
+.lunbo{ width: 710px;}
+.lunbo div{ float: left; width: 25%; box-sizing: border-box; margin-bottom: 20px;}
+.lunbo div a{ width:116px; overflow: hidden; }
+
+/************中国展示*************/
+.slideBox{ width:710px; height:230px; position:relative; margin:30px auto;  }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; right:5px; bottom:5px; z-index:1; display:none }
+.slideBox .hd ul{ overflow:hidden; zoom:1; float:left;  }
+.slideBox .hd ul li{ float:left; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer; }
+.slideBox .hd ul li.on{ background:#f00; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle; }
+.slideBox .bd p{ font-size:26px; text-align:center; margin-top:20px;}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.slideBox .prev img,.slideBox .next img{ width:50px;}
+.slideBox .next,.slideBox .prev{ position:absolute; left:-50px; top:50%; margin-top:-40px; }
+.slideBox .next{ left:auto; right:-100px;;  }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
+
+/******/
+.goto_wrap{ background:url(../images/bg1.png) repeat-x center; width:100%; height:auto; margin:0;}
+.goto_wrap .comment a{ color:#fff; text-align:center; display: block; }
+.goto_wrap div a h2{ color:#fff;font-size:30px;text-align:center; padding-top:20px; padding-bottom: 20px;}
+.go_con span{ display:inline-block; border:1px solid #fff; border-radius:9999px; padding:5px; width:90px; text-align:center; height:90px;  overflow:hidden}
+.go_con a{ display:inline-block; margin-right:90px; color: #fff;   }
+.go_con a:nth-child(4n){ margin-right:0;}
+.go_con span img{padding-top:4px;}
+.go_con p{ text-align: center; overflow: hidden; width: 95%; margin-top: 5px;}
+
+.knoelwdege_con { margin-top: 25px;}
+.knoelwdege_con ul{ padding-left: 0;}
+.knoelwdege_con h2{ padding:0; margin: 0;}
+.knoelwdege_con .slideBox{ margin-top: 10px; margin-bottom: 0; height: 140px;}
+.knoelwdege_con .slideBox .bd p{ font-size:12px; margin-top:10px;}
+.slideBox .prev{left:-100px;}
+
+.about{ background: #E3A123; padding:30px 0;}
+.about h3{ color: #464C52; font-size: 14px; margin-bottom: 20px;}
+.about_con div{ float: left; width:25%;}
+.about_con div p{ color: #fff; width: 90%; line-height: 18px;}
+.about_con div a{ color: #1691C4;}
+.about_con div.ewm span{ color: #fff;}
+.about_con div.ewm p{ margin-bottom: 15px;}
+.link{ margin-top: 30px;}
+.link_con{ margin-top: 20px;}
+.link_con a{ display: inline-block; margin-right: 10px; color: #fff; margin-top: 5px;}
+.footer{ background: #394655; color: #fff; text-align: center;height: 46px; line-height: 46px;}
